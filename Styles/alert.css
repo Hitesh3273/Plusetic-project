@@ -1,0 +1,191 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 7%;
+    font-family: sans-serif;
+    /* background-color: black;
+    color: white; */
+}
+
+.container{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.first_con
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 400px;
+}
+
+.head{
+    /* border: 2px solid black; */
+    font-size: 46px;
+    margin: 0;
+    width: 80%;
+    height: 120px;
+}
+
+.para{
+    margin-top:1%;
+    /* border: 2px solid black; */
+    font-size: 18px;
+    /* text-align:center; */
+    width: 80%;
+    height: 150px;
+}
+
+
+.contact{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    
+}
+
+.ICONDIV{
+    align-items: center;
+}
+
+
+.contactICON{
+    background-color: white;
+    width: 40%;
+}
+
+.iconName{
+    margin-top: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+.second_con{
+    margin-top: 2%;
+    margin-left: -2%;
+    width: 50%;
+    height: 400px;
+}
+
+.alertIMG{
+    width: 100%;
+    height: 100%;
+}
+
+
+                     
+@media screen and (min-width:320px) and (max-width:426px) {
+ 
+
+.container{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.head{
+    font-size: 32px;
+    margin: 0;
+    width: 168%;
+    height: 120px;
+}
+ 
+.para{
+    margin-top:-5%;
+    font-size: 18px;
+    width: 200%;
+    height: 150px;
+}   
+
+
+.contactICON{
+    background-color: white;
+    width: 180%;
+}
+    
+
+.contact{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    row-gap: 25%; 
+    column-gap: 21%; 
+     
+}
+
+.contactICON{
+    background-color: white;
+    width: 143%;
+   }
+    
+   
+
+.second_con{
+    margin-top: -12%;
+    margin-left: 5%;
+    width: 80%;
+    height: 300px;
+}
+
+.alertIMG{
+    width: 100%;
+    height: 100%;
+}
+}
+
+@media screen and (min-width:426px) and (max-width:770px) {
+    
+    .head{
+        font-size: 39px;
+        width: 100%;
+        height: 140px;
+    }
+
+    .para{
+     font-size: 18px;
+     width: 90%;
+     height: 180px;
+}
+
+
+.contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin-left: -8%;
+}
+
+
+.ICONname{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin-left: -10%;
+}
+.icondiv{
+    width: 8%;
+    font-size: 12px;
+}
+#iconTele
+{
+    margin-left: -2%;
+}
+
+}
+
+
+@media screen and (min-width:771px) and (max-width:1025px) {
+  
+}
+
+@media screen and (min-width:1026px) {
+    
+}

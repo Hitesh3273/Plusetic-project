@@ -1,0 +1,202 @@
+<svg width="880" height="442" viewBox="0 0 880 442" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<path d="M0 145H880V432C880 437.523 875.523 442 870 442H9.99999C4.47714 442 0 437.523 0 432V145Z" fill="white"/>
+<path d="M0 10C0 4.47715 4.47715 0 10 0H870C875.523 0 880 4.47715 880 10V145H0V10Z" fill="#19221D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42.8168 50.3617C42.8168 52.0117 43.87 53.2408 45.4129 53.2408C47.0185 53.2408 48.0195 51.9575 48.0195 50.3617C48.0195 48.7659 47.0185 47.4829 45.4129 47.4829C43.87 47.4829 42.8168 48.712 42.8168 50.3617ZM50.5718 50.4575C50.5718 53.5955 48.4658 55.9566 45.6823 55.9566C44.6549 55.9566 43.8549 55.6409 43.242 55.1358C43.0268 54.9585 42.7108 55.1058 42.7108 55.3904V59.3731C42.7108 59.7197 42.4391 60.0004 42.1043 60.0004H40.6065C40.2717 60.0004 40 59.7197 40 59.3731V45.5729C40 45.3884 40.1445 45.2386 40.3232 45.2386H42.3354C42.5141 45.2386 42.6587 45.3884 42.6587 45.5729V45.7973C42.6587 45.9986 42.8915 46.1091 43.0332 45.9713C43.6681 45.3545 44.5281 44.9585 45.6716 44.9585C48.4658 44.9585 50.5718 47.3196 50.5718 50.4575Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M53.9123 50.4048C53.9123 52.1108 55.0561 53.3062 56.5848 53.3062C58.1138 53.3062 59.2683 52.1108 59.2683 50.4048C59.2683 48.6988 58.1138 47.5037 56.5848 47.5037C55.0561 47.5037 53.9123 48.6988 53.9123 50.4048ZM62.0424 50.405C62.0424 53.5782 59.7232 55.9468 56.5824 55.9468C53.4523 55.9468 51.1436 53.5782 51.1436 50.405C51.1436 47.2319 53.4523 44.8633 56.5824 44.8633C59.7232 44.8633 62.0424 47.2319 62.0424 50.405Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M70.3215 47.5769C70.2166 47.8282 69.9368 47.94 69.693 47.8351C68.9093 47.4986 67.8659 47.1977 66.9234 47.1887C65.8967 47.1887 65.3781 47.5653 65.3781 48.1362C65.3781 48.7389 66.1042 48.8897 67.0168 49.0296L67.9088 49.1699C70.0869 49.5142 71.3003 50.5263 71.3003 52.2918C71.3003 54.445 69.5994 55.8337 66.6848 55.8337C65.4467 55.8337 63.8604 55.6135 62.6018 54.8625C62.3796 54.7303 62.2995 54.4375 62.4177 54.2015L63.0473 52.9453C63.1729 52.6944 63.4723 52.6077 63.7106 52.745C64.4903 53.1936 65.4331 53.4975 66.7058 53.4975C67.9607 53.4975 68.5621 53.1317 68.5621 52.5179C68.5621 52.0119 68.0541 51.7319 66.8926 51.5597L66.0731 51.4412C63.7498 51.1074 62.5983 50.0525 62.5983 48.2759C62.5983 46.1335 64.1958 44.8633 66.8404 44.8633C68.2705 44.8633 69.4213 45.1103 70.5995 45.6421C70.8445 45.7525 70.9615 46.0447 70.8551 46.2992L70.3215 47.5769Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M79.2575 47.6788H76.1079C75.9691 47.6788 75.8567 47.796 75.8567 47.9407V51.5199C75.8567 52.833 76.5224 53.3105 77.3653 53.3105C77.8604 53.3105 78.3859 53.1122 78.8531 52.8632C79.0794 52.7423 79.3566 52.843 79.4647 53.0829L80.0891 54.4663C80.1874 54.6843 80.1134 54.9456 79.9159 55.0707C79.1095 55.5826 78.1723 55.947 76.9178 55.947C74.4209 55.947 73.141 54.4714 73.141 51.7478V47.9407C73.141 47.796 73.0285 47.6788 72.8898 47.6788H71.4465C71.3078 47.6788 71.1953 47.5615 71.1953 47.4168V45.4233C71.1953 45.2786 71.3078 45.161 71.4465 45.161H72.8898C73.0285 45.161 73.141 45.0437 73.141 44.899V42.2984C73.141 42.1534 73.2534 42.0361 73.3922 42.0361H75.6052C75.7439 42.0361 75.8567 42.1534 75.8567 42.2984V44.899C75.8567 45.0437 75.9691 45.161 76.1079 45.161H79.2575C79.3962 45.161 79.5087 45.2786 79.5087 45.4233V47.4168C79.5087 47.5615 79.3962 47.6788 79.2575 47.6788Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.1725 47.0368L87.6158 48.3847C87.5029 48.4825 87.3396 48.471 87.233 48.3657C86.6665 47.8045 86.0508 47.5038 85.2473 47.5038C83.8324 47.5038 82.7009 48.6555 82.7009 50.4049C82.7009 52.1651 83.822 53.3065 85.2365 53.3065C86.0289 53.3065 86.7192 52.9718 87.2694 52.4296C87.3733 52.3272 87.532 52.3161 87.6409 52.4127L89.1856 53.7817C89.3029 53.8858 89.3215 54.0712 89.2202 54.192C88.2711 55.3228 86.9163 55.9468 85.3206 55.9468C82.0822 55.9468 79.9131 53.5997 79.9131 50.4049C79.9131 47.221 82.0822 44.8633 85.3206 44.8633C86.9151 44.8633 88.279 45.4963 89.2115 46.6269C89.3119 46.7485 89.2909 46.9342 89.1725 47.0368Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M92.0686 50.4048C92.0686 52.013 93.0797 53.3062 94.6747 53.3062C96.2284 53.3062 97.2812 52.0676 97.2812 50.4048C97.2812 48.7423 96.2284 47.5037 94.6747 47.5037C93.0797 47.5037 92.0686 48.7966 92.0686 50.4048ZM99.5369 55.6754H97.5277C97.3484 55.6754 97.203 55.5238 97.203 55.337V55.3345C97.203 55.0438 96.8806 54.8956 96.6648 55.0804C96.0453 55.6111 95.2288 55.9468 94.1797 55.9468C91.396 55.9468 89.29 53.5673 89.29 50.405C89.29 47.2428 91.396 44.8633 94.1797 44.8633C95.2311 44.8633 96.0427 45.2005 96.6643 45.7378C96.8795 45.9235 97.203 45.7753 97.203 45.484C97.203 45.2971 97.3484 45.1455 97.5277 45.1455H99.5369C99.7165 45.1455 99.8619 45.2971 99.8619 45.484V55.337C99.8619 55.5238 99.7165 55.6754 99.5369 55.6754Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M107.726 45.355L107.413 47.5094C107.385 47.7002 107.2 47.8154 107.022 47.7584C106.618 47.6291 106.137 47.552 105.711 47.552C104.449 47.552 103.584 48.3509 103.584 49.906V55.2958C103.584 55.468 103.449 55.6075 103.283 55.6075H101.164C100.998 55.6075 100.863 55.468 100.863 55.2958V45.4554C100.863 45.2836 100.998 45.1441 101.164 45.1441H103.2C103.366 45.1441 103.501 45.2836 103.501 45.4554C103.501 45.7227 103.806 45.8682 103.998 45.6894C104.603 45.124 105.395 44.8633 106.347 44.8633C106.804 44.8633 107.185 44.9164 107.509 45.0067C107.656 45.0481 107.749 45.1984 107.726 45.355Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M110.182 50.3208C110.182 51.9204 111.193 53.2067 112.788 53.2067C114.342 53.2067 115.395 51.9747 115.395 50.3208C115.395 48.6673 114.342 47.4353 112.788 47.4353C111.193 47.4353 110.182 48.7213 110.182 50.3208ZM115.264 45.8026V40.5609C115.264 40.251 115.507 40 115.805 40H117.434C117.733 40 117.975 40.251 117.975 40.5609V55.1778C117.975 55.391 117.808 55.5636 117.603 55.5636H115.688C115.483 55.5636 115.316 55.391 115.316 55.1778V54.7934C115.316 54.6613 115.162 54.5962 115.073 54.6908C114.426 55.3784 113.518 55.8336 112.293 55.8336C109.509 55.8336 107.403 53.4669 107.403 50.3216C107.403 47.1763 109.509 44.8096 112.293 44.8096C113.491 44.8096 114.379 45.2399 115.023 45.9068C115.112 45.9999 115.264 45.9341 115.264 45.8026Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M127.069 47.4499C126.936 47.7663 126.586 47.9171 126.275 47.7897C125.502 47.4717 124.505 47.1972 123.601 47.1885C122.569 47.1885 122.048 47.5654 122.048 48.136C122.048 48.739 122.777 48.8898 123.695 49.0294L124.591 49.1697C126.78 49.514 128 50.5261 128 52.292C128 54.4453 126.29 55.8337 123.361 55.8337C122.154 55.8337 120.619 55.6267 119.373 54.9295C119.082 54.7662 118.98 54.3839 119.133 54.0807L119.641 53.0733C119.799 52.7601 120.172 52.6372 120.474 52.802C121.237 53.2192 122.158 53.4977 123.382 53.4977C124.643 53.4977 125.248 53.1316 125.248 52.5179C125.248 52.0118 124.737 51.7321 123.569 51.5595L122.746 51.4414C120.411 51.1076 119.254 50.0524 119.254 48.276C119.254 46.1336 120.859 44.8633 123.518 44.8633C124.902 44.8633 126.026 45.0924 127.166 45.5847C127.484 45.7226 127.634 46.1045 127.496 46.4321L127.069 47.4499Z" fill="white"/>
+<rect opacity="0.2" x="739.5" y="33.5" width="100" height="33" rx="3.5" stroke="white"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="500" letter-spacing="0em"><tspan x="753.43" y="54.3636">Get Updates</tspan></text>
+<g filter="url(#filter0_dd)">
+<rect x="40" y="100" width="800" height="90" rx="8" fill="white"/>
+</g>
+<text fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="105" y="152.273">All Systems Operational</tspan></text>
+<circle cx="80" cy="145" r="10" fill="#27AE60"/>
+<path d="M76 145L78.9091 148L84 142" fill="#27AE60"/>
+<path d="M76 145L78.9091 148L84 142" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="109" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="120" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="131" y="265" width="5" height="32" rx="2.5" fill="#F2994A"/>
+<rect x="142" y="265" width="5" height="32" rx="2.5" fill="#F2994A"/>
+<rect x="153" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="164" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="175" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="186" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="197" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="208" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="219" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="230" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="241" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="252" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="263" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="274" y="273" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="285" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="296" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="307" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="318" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="329" y="273" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="340" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="351" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="362" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="373" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="384" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="395" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="406" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="417" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="428" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="439" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="450" y="265" width="5" height="32" rx="2.5" fill="#F2994A"/>
+<rect x="461" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="494" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="483" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="472" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="505" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="516" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="527" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="538" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="549" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="560" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="571" y="273" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="582" y="273" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="593" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="604" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="615" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="626" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="637" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="648" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="659" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="670" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="681" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="692" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="703" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="714" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="725" y="265" width="5" height="32" rx="2.5" fill="#F2994A"/>
+<rect x="736" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="747" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="758" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="769" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="780" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="791" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="802" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="813" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="824" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="835" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="43" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="54" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="65" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="76" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="87" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="98" y="269" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<text fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="17" font-weight="500" letter-spacing="0em"><tspan x="62" y="246.682">postcards.com</tspan></text>
+<text opacity="0.6" fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="17" font-weight="500" letter-spacing="0em"><tspan x="804.572" y="246.682">95%</tspan></text>
+<circle cx="48" cy="241" r="8" fill="#27AE60"/>
+<path d="M44.7998 241L47.1271 243.4L51.1998 238.6" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="41" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="52" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="63" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="74" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="85" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="96" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="107" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="118" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="129" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="140" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="151" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="162" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="173" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="184" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="195" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="206" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="217" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="228" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="239" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="250" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="261" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="272" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="283" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="294" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="305" y="371" width="5" height="32" rx="2.5" fill="#F2994A"/>
+<rect x="316" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="327" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="338" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="349" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="360" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="371" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="382" y="379" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="393" y="379" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="426" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="415" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="404" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="437" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="448" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="459" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="470" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="481" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="492" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="503" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="514" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="525" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="536" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="547" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="558" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="569" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="580" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="591" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="602" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="613" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="624" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="635" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="646" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="657" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="668" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="679" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="690" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="701" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="712" y="379" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="723" y="379" width="5" height="16" rx="2.5" fill="#D1D3D2"/>
+<rect x="734" y="371" width="5" height="32" rx="2.5" fill="#F2994A"/>
+<rect x="745" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="756" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="767" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="778" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="789" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="800" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="811" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="822" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<rect x="833" y="375" width="5" height="24" rx="2.5" fill="#27AE60"/>
+<text fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="17" font-weight="500" letter-spacing="0em"><tspan x="62" y="352.682">Sync</tspan></text>
+<text opacity="0.6" fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="17" font-weight="500" letter-spacing="0em"><tspan x="795.939" y="352.682">100%</tspan></text>
+<circle cx="48" cy="347" r="8" fill="#27AE60"/>
+<path d="M44.7998 347L47.1271 349.4L51.1998 344.6" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_dd" x="10" y="78" width="860" height="150" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.133333 0 0 0 0 0.113725 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

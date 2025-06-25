@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;    
+    border: none;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.bodyframe{
+    position: relative;
+    z-index:1;
+    border: 2px solid black;
+    /* margin-top:-38%; */
+    border: none;
+}
+
+.headerframe
+{
+    position:relative ;
+    z-index: 10;
+}
+
+@media screen and (max-width:350px) {
+    
+   
+   
+   .Sectionframe
+   {
+     height: 2000px; 
+   }
+    
+
+}
+
+
+@media screen and (min-width:350px) and (max-width:426px) {
+   
+    .bodyframe {
+       
+       /* margin-top:-115%; */
+       height: 750px;
+    }
+
+   .Sectionframe
+  {
+     height:1378px;
+  }
+    
+   .Monitorframe
+   {
+     height: 760px; 
+   }
+
+   .Monitorframe{
+    height: 833px;
+    /* margin-top: 37; */
+   }
+}
+
+
+@media screen and (min-width:426px) and (max-width:570px) {
+.head{
+
+    margin-top: 56px;
+    /* width: 99%; */
+    height: 88px;
+    font-size: 40px;
+}
+
+
+.bodyframe{
+    /* margin-top:-85%; */
+    height: 700px;
+}
+
+.moniterIMG{
+        margin-left: 10%;
+}
+
+   
+  .Sectionframe
+ {
+    /* margin-top:11% ; */
+     height:780px;
+ }
+
+}
+
+@media screen and (min-width:571px) and (max-width:770px) {
+.head{
+
+    margin-top: 56px;
+    /* width: 99%; */
+    height: 88px;
+    font-size: 40px;
+}
+
+
+.bodyframe{
+    /* margin-top:-55%; */
+}
+
+.moniterIMG{
+        margin-left: 10%;
+}
+
+   
+  .Sectionframe
+ {
+    /* margin-top:11% ; */
+     height:780px;
+ }
+
+}
+
+
+
+
+/* =================css on header =========== */
+
+

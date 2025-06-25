@@ -1,0 +1,118 @@
+<svg width="880" height="400" viewBox="0 0 880 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<path d="M0 145H880V390C880 395.523 875.523 400 870 400H9.99999C4.47714 400 0 395.523 0 390V145Z" fill="white"/>
+<path d="M0 10C0 4.47715 4.47715 0 10 0H870C875.523 0 880 4.47715 880 10V145H0V10Z" fill="#6551E0"/>
+<rect opacity="0.2" x="739" y="33" width="101" height="34" rx="4" fill="white" fill-opacity="0.6"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="500" letter-spacing="0em"><tspan x="753.43" y="54.3636">Get Updates</tspan></text>
+<path d="M47.4685 47.0659L50.18 45.9401C49.3237 43.6647 46.5171 42.7305 44.7094 42.9461C41.9979 43.2814 40.4519 45.2216 40.4519 46.994C40.4519 48.3832 41.7601 49.6527 43.211 50.1078C44.424 50.491 47.4209 50.5868 47.2782 51.976C47.1831 52.8623 45.7322 53.1497 44.7808 52.9341C43.8294 52.7186 43.092 51.9521 42.8066 51.1856L40 52.4072C40.5946 53.9162 42.1882 55.7605 45.3516 55.7605C48.8004 55.7605 50.4178 53.6527 50.4178 52.0479C50.4178 50.4671 49.6329 48.9102 47.0641 48.2874C44.5905 47.6886 43.5202 47.5689 43.5202 46.6826C43.5202 46.0599 44.4478 45.7246 45.2565 45.7246C45.8987 45.7246 47.0879 46.0838 47.4685 47.0659ZM59.8498 55.018L58.9698 52.2874C58.4703 52.5988 57.4475 52.7904 56.9005 52.1677C56.5675 51.7844 56.5199 51.4491 56.5199 49.7964V46.2994H59.3266V43.5449H56.5437V40H53.523V42.7545C53.523 43.2814 53.3565 43.5449 52.6192 43.5449H51.3348V46.2994H53.3803V51.7844C53.3803 53.1497 54.1652 55.0419 56.3059 55.4731C58.066 55.8323 58.9222 55.3772 59.8498 55.018ZM65.2295 55.7365C66.942 55.7365 68.0124 54.7545 68.5356 54.012L68.6308 55.3772H71.7466L71.6752 47.521C71.6752 45.8443 70.7476 44.3114 68.5832 43.497C66.942 42.8743 64.9441 43.1138 63.7311 43.8084C62.0423 44.7665 61.4002 46.0599 61.2337 47.0419L64.0165 47.6407C64.3019 46.1078 65.4912 45.4611 66.9896 45.8443C68.6308 46.2754 68.3691 47.6407 68.0362 47.9042C67.7032 48.1677 66.3236 48.2874 65.1582 48.4551C62.5894 48.7904 60.7817 49.9641 61.0434 52.5748C61.305 54.515 62.7083 55.7365 65.2295 55.7365ZM66.5853 53.2216C65.182 53.509 64.1592 53.0778 64.1592 51.9281C64.1592 50.3234 66.0382 50.8982 68.5832 50.491C68.7497 51.6886 68.1075 52.9102 66.5853 53.2216ZM76.4797 55.3533L73.3877 55.3293V43.6168H76.4797V45.3653C76.8603 44.4311 77.4311 43.8563 78.5966 43.4251C79.4528 43.1138 80.9037 43.1856 81.7124 43.6647L80.8562 46.515C79.9048 46.0599 78.3349 45.988 77.4311 47.018C76.6224 47.9521 76.4797 48.6467 76.4797 51.7605V55.3533ZM90.4269 55.018L89.5469 52.2874C89.0474 52.5988 88.0247 52.7904 87.4776 52.1677C87.1446 51.7844 87.0971 51.4491 87.0971 49.7964V46.2994H89.9037V43.5449H87.1208V40H84.1001V42.7545C84.1001 43.2814 83.9337 43.5449 83.1963 43.5449H81.9119V46.2994H83.9574V51.7844C83.9574 53.1497 84.7423 55.0419 86.883 55.4731C88.6431 55.8323 89.4993 55.3772 90.4269 55.018ZM100.053 53.9162L100.172 55.3772H103.288V43.497H99.9578V50.7066C99.9578 51.7126 99.0302 52.7904 97.5318 52.7904C96.0333 52.7904 95.4149 51.5928 95.4149 50.5629V43.521H92.0612V50.8743C92.0612 51.9281 92.4418 55.7126 96.3425 55.7126C98.4594 55.7126 99.7914 54.6108 100.053 53.9162ZM104.965 60L108.081 59.976L108.057 54.3234C109.246 55.5449 110.792 55.7844 111.981 55.6407C114.098 55.3772 116.691 53.8443 116.976 50.012C117.309 45.509 114.098 43.1138 111.529 43.1138C109.793 43.1138 108.699 43.7605 108.009 44.7665L107.89 43.521L104.917 43.497L104.965 60ZM108.009 49.4371C108.009 48.0719 108.604 46.1796 110.84 46.0838C112.6 46.012 113.884 47.5928 113.884 49.4132C113.884 51.3772 112.552 52.8383 110.935 52.8144C109.032 52.7904 108.009 51.3293 108.009 49.4371Z" fill="white"/>
+<g filter="url(#filter0_dd)">
+<rect x="40" y="100" width="800" height="90" rx="8" fill="white"/>
+</g>
+<text fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="105" y="152.273">All Systems Operational</tspan></text>
+<circle cx="80" cy="145" r="10" fill="#6551E0"/>
+<path d="M76 145L78.9091 148L84 142" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="109" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="120" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="131" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="142" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="153" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="164" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="175" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="186" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="197" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="208" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="219" y="329" width="5" height="32" rx="2.5" fill="#F065CB"/>
+<rect x="230" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="241" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="252" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="263" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="274" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="285" y="337" width="5" height="16" rx="2.5" fill="#D9D9D9"/>
+<rect x="296" y="337" width="5" height="16" rx="2.5" fill="#D9D9D9"/>
+<rect x="307" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="318" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="329" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="340" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="351" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="362" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="373" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="384" y="337" width="5" height="16" rx="2.5" fill="#D9D9D9"/>
+<rect x="395" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="406" y="337" width="5" height="16" rx="2.5" fill="#D9D9D9"/>
+<rect x="417" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="428" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="439" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="450" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="461" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="494" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="483" y="329" width="5" height="32" rx="2.5" fill="#F065CB"/>
+<rect x="472" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="505" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="516" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="527" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="538" y="329" width="5" height="32" rx="2.5" fill="#F065CB"/>
+<rect x="549" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="560" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="571" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="582" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="593" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="604" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="615" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="626" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="637" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="648" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="659" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="670" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="681" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="692" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="703" y="329" width="5" height="32" rx="2.5" fill="#F065CB"/>
+<rect x="714" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="725" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="736" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="747" y="337" width="5" height="16" rx="2.5" fill="#D9D9D9"/>
+<rect x="758" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="769" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="780" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="791" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="802" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="813" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="824" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="835" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="43" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="54" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="65" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="76" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="87" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<rect x="98" y="333" width="5" height="24" rx="2.5" fill="#6551E0"/>
+<text fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="17" font-weight="500" letter-spacing="0em"><tspan x="62" y="310.682">startup.com</tspan></text>
+<text opacity="0.6" fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="17" font-weight="500" letter-spacing="0em"><tspan x="805.602" y="310.682">97%</tspan></text>
+<circle cx="48" cy="305" r="8" fill="#6551E0"/>
+<path d="M44.7998 305L47.1271 307.4L51.1998 302.6" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="20" font-weight="600" letter-spacing="-0.005em"><tspan x="40" y="249.273">Uptime</tspan></text>
+<text opacity="0.5" fill="#131117" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" font-weight="500" letter-spacing="-0.005em"><tspan x="116" y="248.591">Last 90 Days</tspan></text>
+<defs>
+<filter id="filter0_dd" x="10" y="78" width="860" height="150" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.133333 0 0 0 0 0.113725 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

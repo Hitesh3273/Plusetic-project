@@ -1,0 +1,36 @@
+<svg width="260" height="184" viewBox="0 0 260 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<rect x="90" y="148" width="80" height="36" rx="18" fill="#27AE60"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="600" letter-spacing="0em"><tspan x="110.342" y="170.364">Sign In</tspan></text>
+<circle opacity="0.2" cx="130" cy="28" r="18.75" stroke="url(#paint0_linear)" stroke-width="2.5"/>
+<circle opacity="0.5" cx="130.009" cy="28.0038" r="14.3056" stroke="url(#paint1_linear)" stroke-width="2.5"/>
+<circle opacity="0.8" cx="130.008" cy="27.9978" r="9.86111" stroke="url(#paint2_linear)" stroke-width="2.5"/>
+<circle opacity="0.8" cx="130.009" cy="28.0038" r="5.55556" fill="#27AE60"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="41.0742" y="67.2727"> Get a Status Page</tspan></text>
+<rect y="92" width="260" height="36" rx="4" fill="#1C1824"/>
+<rect x="13" y="102" width="0.5" height="16" fill="white"/>
+<text opacity="0.4" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="500" letter-spacing="0em"><tspan x="15" y="114.364">Enter Password</tspan></text>
+<defs>
+<linearGradient id="paint0_linear" x1="130" y1="8" x2="130" y2="39" gradientUnits="userSpaceOnUse">
+<stop offset="0.489583" stop-color="#27AE60"/>
+<stop offset="1" stop-color="#27AE60" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="130.009" y1="12.4482" x2="130.009" y2="43.5594" gradientUnits="userSpaceOnUse">
+<stop stop-color="#27AE60"/>
+<stop offset="1" stop-color="#27AE60" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="130.008" y1="16.8867" x2="130.008" y2="39.1089" gradientUnits="userSpaceOnUse">
+<stop stop-color="#27AE60"/>
+<stop offset="1" stop-color="#27AE60" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

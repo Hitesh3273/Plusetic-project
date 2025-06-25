@@ -1,0 +1,139 @@
+// Optimize Slides framework
+// window.setStageClasses = 0;
+
+// Change light/dark theme if user changed it on his device
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+	switchColorScheme();
+});
+
+$(document).ready(function(){
+	
+	// Lazy load
+	if($(".lazy").length>0){	
+		$('.lazy').lazy({
+			effect: 'fadeIn',
+			effectTime: 500,
+		});
+	}
+
+	// Toggle dark theme on/off
+	$('.js-color-scheme-toggle').on('click', function(){
+		if(userTheme=="light"){
+			userTheme = "dark";
+		}else if(userTheme=="dark"){
+			userTheme = "light";
+		}else if(!userTheme){
+			userTheme = (window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'light' : 'dark';
+		}
+		switchColorScheme();
+	});
+
+	$('.pop-site').on('click', function(){
+		$('#site-down-form').val($(this).data('url'));
+	});
+
+	//swiper slider
+	if($(".swiper-1").length>0){
+		var swiper = new Swiper(".swiper-1", {
+			slidesPerView: 1,
+			spaceBetween: 20,
+			navigation: {
+			  nextEl: ".swiper-button-next",
+			  prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+			  480: {
+				slidesPerView: 'auto',
+			  },		  
+			}				
+		});
+	}
+
+	if($(".swiper-2").length>0){
+		var swiper = new Swiper(".swiper-2", {
+			slidesPerView: 1, 
+			spaceBetween: 20,
+			navigation: {
+			  nextEl: ".swiper-button-next",
+			  prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+			  480: {
+				slidesPerView: 'auto',
+			  },		  
+			}			
+		});
+	}	
+	
+	//Pricing
+
+	// $(".PseudoColumn").hover(function(){
+	// 	$(".PseudoColumn").removeClass('hovered');
+	// 	var index = $(this).index()+1;
+	// 	if(index>1){
+	// 		$(".PseudoRow .PseudoColumn:nth-of-type("+index+")").addClass('hovered');
+	// 	}
+	// },function(){
+	// 	$(".PseudoColumn").removeClass('hovered');
+	// }); 
+
+	//Changing Pricing variants Yearly/Annualy 
+ 
+	$(".PricingSection .PricingOptions").click(function(e){
+		if(!$(e.target).closest(".ToogleInput").length){
+			var isChecked = $(".PricingSection .ToogleInput").prop("checked");
+			$(".PricingSection .ToogleInput").prop("checked",(isChecked)?false:"checked");
+			$(".PricingSection .ToogleInput").trigger("change");
+		}
+	});
+	
+	$(".PricingSection .ToogleInput").change(function(){
+		$(".PricingSection .monthly, .PricingSection .annual").toggleClass("show");
+	});
+	
+	//Changing Terms of Service/Privacy Policy 
+ //  $(".TermsPolicySection .TermsLink").click(function(){
+	// 	$(this).addClass('active');
+	// 	$(".TermsPolicySection .PolicyLink").removeClass('active');
+	// 	$(".TermsPolicySection .PolicyBlock").removeClass('active');
+	// 	$(".TermsPolicySection .TermsBlock").addClass('active');
+	// });  
+
+ //  $(".TermsPolicySection .PolicyLink").click(function(){
+	// 	$(this).addClass('active');
+	// 	$(".TermsPolicySection .TermsLink").removeClass('active');
+	// 	$(".TermsPolicySection .TermsBlock").removeClass('active');
+	// 	$(".TermsPolicySection .PolicyBlock").addClass('active');
+	// }); 	
+
+
+	if($(".js-slide-with-table").length>0){
+		$(window).on("scroll",function(){
+			var staticHeadTop = $(".js-static-table-head").offset().top;
+			var tableBottom = $(".js-table").offset().top + $(".js-table").outerHeight(true);
+			$(window).scrollTop() > staticHeadTop && $(window).scrollTop() <= tableBottom ? $(".js-fixed-table-head").removeClass("hidden").find(".customTableOverflow").scrollLeft($(".js-table-scrollable-area").scrollLeft()) : $(".js-fixed-table-head").addClass("hidden");
+		});
+		
+		$(".js-fixed-table-head .customTableOverflow").on("scroll",function(){
+			$(".js-table-scrollable-area").scrollLeft($(this).scrollLeft());
+		});
+		
+		$(".js-table-scrollable-area").on("scroll",function(){
+			$(".js-fixed-table-head .customTableOverflow").scrollLeft($(this).scrollLeft());
+		});
+	}
+
+  	$('.geography_filter .CustomSortBtn').on('click', function(){
+		var filterAttr = $(this).attr('data-geography');
+		if ($(this).hasClass('active')){
+			$(this).removeClass('active');
+			$('.geography_filter  .geography_status').css('display','block'); 
+		}else{
+			$('.geography_filter .CustomSortBtn').removeClass('active');
+			$(this).addClass('active');
+			$('.geography_filter  .geography_status').css('display','none'); 
+			$('.geography_filter  .geography_status[data-geography="' + filterAttr + '"]').css('display','block');
+		}		
+  });
+
+}); // Document.ready end

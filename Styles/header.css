@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.Pluse_head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 25%;
+    height: 20px;
+    margin-top: 5%;
+}
+
+.logo img
+{
+    height: 20px;
+    width: 100%;
+}
+
+
+.navlist
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:8% ;
+    height: 25px;
+}
+
+
+
+
+/* ==============================css on list ==================  */
+
+.hidenavbar
+{
+    display: none;
+}
+
+.list{
+    position: relative;
+    z-index: 1;
+    /* border: 2px solid black; */
+    border-radius: 5%;
+    background-color: rgb(236, 237, 238);
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 55%;
+
+    /* transition-duration: 3s; */
+}
+
+.buttons{
+    height: 35px;
+    width: 15%;
+    margin-left: 2%;
+    font-weight:500;
+}
+
+#hamberICON
+{
+    padding: 1%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.hamburgerItem li {
+
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.hamburgerItem a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             /* for mobile view  */
+                       
+@media screen  and (max-width:426px) {
+ 
+    
+                                 /* css on header    */
+
+.logo{
+    width: 20%;
+    height: 25px;
+    margin-top: 10%;
+    margin-right: 35%;
+}
+
+.logo img
+{
+    height: 25px;
+    width: 100%;
+}
+
+
+.navlist
+{
+    display: grid;
+    grid-template-columns: 55% 30%;
+    column-gap: 25px;
+    margin-top:9% ;
+    margin-right: 5%;
+    font-weight: 500;
+}
+
+.list{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.navlist img {
+    height: 30px;
+    width: 60%;
+}
+
+.buttons{
+    height: 35px;
+    width: 85%;
+    margin-left: 9%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#loginBTN
+{
+    width: 150%;
+    border-style: none;
+    background-color: white;
+}
+
+#hamberICON
+{
+    padding: 4%;
+    background-color: gray;
+    border-radius: 50%;
+}
+#signBTN
+{
+    display: none;
+}
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:770px) {
+ 
+
+.logo{
+    width: 15%;
+    height: 18px;
+    margin-top: 4%;
+    margin-right: 45%;
+}
+
+.logo img
+{
+    height: 40px;
+    width: 100%;
+}
+
+
+.navlist
+{
+    display: grid;
+    grid-template-columns: auto 25% 100%;
+    column-gap: 35px;
+    margin-top:5% ;
+    margin-right: 5%;
+    font-weight: 500;
+}
+
+.list{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.buttons {
+    height: 26px;
+    width: 12%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#loginBTN
+{
+    width: 150%;
+    border-style: none;
+    background-color: white;
+}
+
+#signBTN
+{
+    padding: 2%;
+    border-radius: 5%;
+    border-style: none;
+    width: 150%;
+}
+
+
+}
+
+
+@media screen and (min-width:771px) and (max-width:1025px) {
+    
+
+.logo{
+    width: 15%;
+    height: 20px;
+    margin-top: 3%;
+    margin-right: 45%;
+}
+
+.logo img
+{
+    height: 40px;
+    width: 100%;
+}
+
+
+.navlist
+{
+    display: grid;
+    grid-template-columns: 30% 35% 100%;
+    column-gap: 45px;
+    margin-top:4% ;
+    margin-right: 10%;
+}
+
+
+.list{
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 80%;
+    position: relative;
+    z-index: 1;
+    
+    /* z-index: 1; */
+}
+
+
+.navlist img 
+{
+ height: 30px;
+ width: 12%;
+}
+
+#loginBTN
+{
+    width: 140%;
+    border-style: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+#signBTN
+{
+    padding: 2%;
+    border-radius: 5%;
+    border-style: none;
+    width: 140%;
+    font-size: 20px;
+}
+#hamberICON
+{
+    /* padding: 1%; */
+    background-color: gray;
+    border-radius: 50%;
+}
+
+}
+@media screen and (min-width:1026px) {
+ 
+    
+.logo{
+    width: 10%;
+    height: 20px;
+    margin-top: 3%;
+    margin-right: 65%;
+}
+
+.logo img
+{
+    height: 40px;
+    width: 100%;
+}
+
+
+.navlist
+{
+    display: grid;
+    grid-template-columns: 30% 35% 80%;
+    column-gap: 45px;
+    margin-top:4% ;
+    margin-right: 8%;
+}
+
+.list{
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 80%;
+    /* z-index: 1; */
+}
+
+#loginBTN
+{
+    width: 150%;
+    border-style: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+#signBTN
+{
+    padding:2%;
+    border-radius: 5%;
+    border-style: none;
+    width: 150%;
+    height: 35px;
+    font-size: 20px;
+}
+
+#hamberICON
+{
+    margin-left: 12%;
+}
+}

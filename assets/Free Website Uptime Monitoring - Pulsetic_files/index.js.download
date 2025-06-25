@@ -1,0 +1,244 @@
+// Simple usage on remote sites
+
+// Pulsetic.init({
+//   badge_id: 1385,
+//   element_id: 'badge',
+// })
+
+/* eslint-disable */
+class Pulsetic {
+  static async init ({ monitor_id, element_id, badge }) {
+    try {
+      const apiLink = 'https://api.pulsetic.com'
+      if (!badge) {
+        let response = await fetch(`${apiLink}/monitors/${monitor_id}/public/badge`, {
+          headers: {
+            accept: 'application/json, text/plain, */*'
+          },
+          method: 'GET'
+        })
+        badge = await response.json()
+      }
+
+      let form = {}
+      form.style = JSON.parse(badge.style)
+      form.symbol = JSON.parse(badge.symbol)
+      form.roundness = JSON.parse(badge.roundness)
+      form.font_style = JSON.parse(badge.font_style)
+      form.text_color = JSON.parse(badge.text_color)
+      form.symbol_color = JSON.parse(badge.symbol_color)
+      form.frame_background_color = JSON.parse(badge.frame_background_color)
+      form.frame_border_color = JSON.parse(badge.frame_border_color)
+      form.custom_text = JSON.parse(badge.custom_text)
+      form.inner_text_color = JSON.parse(badge.inner_text_color)
+      form.custom_css = JSON.parse(badge.custom_css)
+      if (badge.badge_url) {
+        form.badge_url = JSON.parse(badge.badge_url)
+      }
+
+      let type = ''
+
+      if (badge.monitor_status === 'online') {
+        type = 'operational'
+      } else if (badge.monitor_status === 'offline') {
+        type = 'unavailable'
+      } else {
+        type = 'investigation'
+      }
+
+      //regex for uptimeWithoutRounding
+      const re = new RegExp('^-?\\d+(?:\.\\d{0,' + (2 || -1) + '})?') // eslint-disable-line
+
+      const getStyle = (key) => {
+        if (form[key] && form[key].default) {
+          return !form[key].collapsed ? form[key][type] : form[key].default[type]
+        } else {
+          return form[key] ? form[key][type] : {}
+        }
+      }
+
+      const borderRadius = () => {
+        if (form.roundness) {
+          if (form.roundness.id === 1) {
+            return '0'
+          } else if (form.roundness.id === 2) {
+            return '6px'
+          } else if (form.roundness.id === 3) {
+            return '100px'
+          }
+        }
+        return '0'
+      }
+      const iconStyles = () => {
+        if (form.style.id === 1) {
+          return `position: absolute; left: 14px; width: 10px; height: 10px;`
+        } else if (form.style.id === 2) {
+          return `margin-right: 6px; width: 8px; height: 8px;`
+        } else if (form.style.id === 3) {
+          return `margin-left: 6px; width: 12px;`
+        }
+      }
+      const icon = () => {
+        if (form.symbol.id === 1) {
+          return `
+              <svg style="${iconStyles()}" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.25168 1.14697C8.01369 -0.224651 9.9863 -0.224653 10.7483 1.14697L17.3493 13.0287C18.0899 14.3618 17.1259 16 15.601 16H2.39903C0.87406 16 -0.089876 14.3618 0.650714 13.0287L7.25168 1.14697Z" fill="#${getStyle('symbol_color').color}"/>
+              </svg>
+          `
+        } else if (form.symbol.id === 2) {
+          return `
+              <svg style="${iconStyles()}" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="8" cy="8" r="8" fill="#${getStyle('symbol_color').color}"/>
+              </svg>
+          `
+        } else if (form.symbol.id === 3) {
+          return `
+              <svg style="${iconStyles()}" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="16" height="16" rx="4" fill="#${getStyle('symbol_color').color}"/>
+              </svg>
+          `
+        }
+      }
+
+      let fontFamily = !form.font_style.collapsed ? `
+        font-size: ${form.font_style.textSize.title}px;
+        font-weight: ${form.font_style.weight.value};
+        font-family: ${form.font_style.font.value}, serif;
+      ` : ''
+      let textColor = !form.text_color.collapsed ? `
+        color: #${form.text_color[type].color};
+      ` : ''
+      if (!form.font_style.collapsed) {
+        let fontStyles = await fetch(`https://fonts.googleapis.com/css?family=${form.font_style.font.family.split(' ').join('+')}`)
+        let fontStylesElement = document.createElement('style')
+        fontStyles = await fontStyles.text()
+        fontStylesElement.innerHTML = fontStyles
+        document.body.appendChild(fontStylesElement)
+      }
+
+      const fonts = () => {
+        return `
+            <style>
+                /*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*/
+                /*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
+                /*@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');*/
+                /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
+                /*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');*/
+                /*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');*/
+                ${(typeof form.custom_css !== 'object' || form.custom_css === null) ? form.custom_css : (!form.custom_css.collapsed && form.custom_css.value ? form.custom_css.value : '')}
+            </style>
+        `
+      }
+      let chipElement = document.createElement('div')
+
+      const chipStyles = () => {
+        return !element_id ? 'position: absolute; bottom: 24px; right: 24px; text-decoration: none;' : 'text-decoration: none;'
+      }
+
+      if (!form.inner_text_color) {
+        form.inner_text_color = {...form.text_color}
+      }
+
+      let chip1 = `
+          <a ${form.badge_url && !form.badge_url.collapsed && form.badge_url.value ? `href="${form.badge_url.value}"` : ''} ${form.badge_url && form.badge_url.open_in_new_tab && form.badge_url.open_in_new_tab === true ? `target="_blank" rel="noopener noreferrer"` : ``} style="${chipStyles()}">
+              <div class="badge-container" style="
+                      position: relative;
+                      box-sizing: border-box;
+                      padding: 7px 14px 7px 32px;
+                      display: inline-flex;
+                      align-items: center;
+                      justify-content: center;
+                      min-height: 44px;
+                      background: #${getStyle('frame_background_color').color};
+                      border-radius: ${borderRadius()};
+                      border: #${getStyle('frame_border_color').color} 1px solid;
+                      ${textColor}
+                      ${fontFamily}
+                  ">
+                  <div style="display: flex; align-items: center;">
+                      ${icon()}
+                  </div>
+                  <div style="max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="badge-text">
+                      ${getStyle('custom_text') || ''}
+                  </div>
+              </div>
+          </a>
+          ${fonts()}
+      `
+      let chip2 = `
+          <a ${form.badge_url && !form.badge_url.collapsed && form.badge_url.value ? `href="${form.badge_url.value}"` : ''} ${form.badge_url && form.badge_url.open_in_new_tab && form.badge_url.open_in_new_tab === true ? `target="_blank" rel="noopener noreferrer"` : ``} style="${chipStyles()}">
+              <div class="badge-container" style=" display: flex; align-items: center; min-height: 44px;">
+                  <div style="
+                          max-width: 80%;
+                          ${textColor}
+                          ${fontFamily}
+                      ">
+                      <div style="max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="badge-text">
+                          ${getStyle('custom_text') || ''}
+                      </div>
+                  </div>
+                  <div class="badge-body" style="
+                          padding: 0 6px;
+                          color: white;
+                          margin-left: 6px;
+                          font-weight: 500;
+                          display: flex;
+                          align-items: center;
+                          min-height: 24px;
+                          background: ${'#' + getStyle('frame_background_color').color};
+                          border-radius: ${borderRadius()};
+                      ">
+                      <div style="display: flex; align-items: center;">
+                          ${icon()}
+                      </div>
+                      <div style="
+                              ${!form.inner_text_color ?`color: ${'#' + form.inner_text_color[type + 'Inner'].color};` : (!form.inner_text_color.collapsed ?`color: ${'#' + form.inner_text_color[type + 'Inner'].color};` : "") }
+                              ${fontFamily}
+                          ">
+                          ${badge.uptime ? ((badge.whole_uptime_number ? (badge.uptime * 100).toFixed(0) : (badge.uptime * 100).toString().match(re)[0]) + '%') : 'N/A'}
+                      </div>
+                  </div>
+              </div>
+          </a>
+          ${fonts()}
+      `
+      let chip3 = `
+          <a ${form.badge_url && !form.badge_url.collapsed && form.badge_url.value ? `href="${form.badge_url.value}"` : ''} ${form.badge_url && form.badge_url.open_in_new_tab && form.badge_url.open_in_new_tab === true ? `target="_blank" rel="noopener noreferrer"` : ``} style="${chipStyles()}">
+              <div class="badge-container" style="
+                      position: relative;
+                      display: flex;
+                      align-items: center;
+                      min-height: 44px;
+                      ${textColor}
+                      ${fontFamily}
+                  ">
+                  <div style="max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="badge-text">
+                      ${getStyle('custom_text') || ''}
+                  </div>
+                  <div style="display: flex; align-items: center;">
+                      ${icon()}
+                  </div>
+              </div>
+          </a>
+          ${fonts()}
+      `
+
+      if (form.style.id === 1) {
+        chipElement.innerHTML = chip1
+      } else if (form.style.id === 2) {
+        chipElement.innerHTML = chip2
+      } else if (form.style.id === 3) {
+        chipElement.innerHTML = chip3
+      }
+
+      if (element_id) {
+        let parentElement = document.getElementById(element_id)
+        parentElement.appendChild(chipElement)
+      } else {
+        document.body.appendChild(chipElement)
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+}

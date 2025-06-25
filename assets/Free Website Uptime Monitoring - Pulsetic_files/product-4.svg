@@ -1,0 +1,120 @@
+<svg width="680" height="430" viewBox="0 0 680 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<g clip-path="url(#clip0)">
+<rect width="680" height="430" rx="10" fill="#27AE60"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="40" y="40" width="754" height="390">
+<path d="M40 48C40 43.5817 43.5817 40 48 40H794V430H40V48Z" fill="#F8F8F8"/>
+<path d="M40.5 48C40.5 43.8579 43.8579 40.5 48 40.5H793.5V429.5H40.5V48Z" stroke="white" stroke-opacity="0.1"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="40" y="40" width="754" height="430.699" fill="white"/>
+<rect x="40.5" y="40.5" width="753" height="429.699" stroke="white" stroke-opacity="0.1"/>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="0em"><tspan x="116" y="205.091">your-awesome-site.com</tspan></text>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="601.89" y="205.091">99.98%</tspan></text>
+<text opacity="0.4" fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" letter-spacing="-0.022em"><tspan x="83.2998" y="148.864">Name</tspan></text>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="20" font-weight="600" letter-spacing="-0.022em"><tspan x="83.2998" y="101.773">Monitors</tspan></text>
+<text opacity="0.4" fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" letter-spacing="-0.022em"><tspan x="316.94" y="148.864">Status</tspan></text>
+<text opacity="0.4" fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" letter-spacing="-0.022em"><tspan x="450.76" y="148.864">SSL Certificate</tspan></text>
+<text opacity="0.4" fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" letter-spacing="-0.022em"><tspan x="602.17" y="148.864">Uptime</tspan></text>
+<rect x="84.4844" y="189.222" width="20.2695" height="20.3475" rx="2" fill="url(#paint0_linear)"/>
+<path d="M94.1828 193.123C94.3764 192.796 94.8499 192.796 95.0435 193.123L96.7804 196.059C96.8504 196.177 96.9661 196.262 97.1003 196.292L100.421 197.044C100.791 197.127 100.937 197.576 100.687 197.861L98.4386 200.431C98.3484 200.534 98.3045 200.669 98.317 200.806L98.6312 204.21C98.6661 204.588 98.2834 204.865 97.9349 204.715L94.8115 203.365C94.6849 203.31 94.5414 203.31 94.4148 203.365L91.2914 204.715C90.9429 204.865 90.5602 204.588 90.5951 204.21L90.9093 200.806C90.9218 200.669 90.8779 200.534 90.7877 200.431L88.5391 197.861C88.2897 197.576 88.4356 197.127 88.8051 197.044L92.126 196.292C92.2602 196.262 92.3759 196.177 92.4459 196.059L94.1828 193.123Z" fill="white"/>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="601.89" y="288.091">99.94%</tspan></text>
+<rect x="316.38" y="350" width="98.3071" height="32.556" rx="3" fill="#E1F5EE"/>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="331.887" y="370.994">Online</tspan></text>
+<path opacity="0.5" d="M395 365.444L399 369L403 365.444" stroke="black" stroke-linecap="round"/>
+<rect x="450.18" y="350" width="108.442" height="32.556" rx="3" fill="#E1F5EE"/>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="464.001" y="370.994">Healthy</tspan></text>
+<path opacity="0.5" d="M537 365.444L540.734 368.764C540.886 368.898 541.114 368.898 541.266 368.764L545 365.444" stroke="black" stroke-linecap="round"/>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="601" y="371.091">99.85%</tspan></text>
+<g filter="url(#filter0_d)">
+<rect x="83.3037" y="414.056" width="709.433" height="71.2162" rx="4" fill="white"/>
+<rect x="83.5037" y="414.256" width="709.033" height="70.8162" rx="3.8" stroke="#E4E4E4" stroke-opacity="0.39" stroke-width="0.4"/>
+</g>
+<rect x="446" y="79.3442" width="315.191" height="32.556" rx="4" fill="white"/>
+<rect x="446.5" y="79.8442" width="314.191" height="31.556" rx="3.5" stroke="#585858" stroke-opacity="0.1"/>
+<text opacity="0.4" fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" letter-spacing="-0.022em"><tspan x="518.883" y="99.8636">my-awesome-site.com</tspan></text>
+<text opacity="0.5" fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" letter-spacing="-0.022em"><tspan x="455.883" y="99.8636">htttps://</tspan></text>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="0em"><tspan x="116" y="288.091">davids-bikestore.com</tspan></text>
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="0em"><tspan x="116" y="371.091">mamabakery.com</tspan></text>
+<rect x="316.383" y="183.097" width="98.3071" height="32.556" rx="3" fill="#E1F5EE"/>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="331.89" y="204.091">Online</tspan></text>
+<path opacity="0.5" d="M395 198.444L399 202L403 198.444" stroke="black" stroke-linecap="round"/>
+<rect x="316.383" y="266.5" width="98.3071" height="32.556" rx="3" fill="#E1F5EE"/>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="331.89" y="287.494">Online</tspan></text>
+<path opacity="0.5" d="M395 281.444L399 285L403 281.444" stroke="black" stroke-linecap="round"/>
+<rect x="450.179" y="183.097" width="108.442" height="32.556" rx="3" fill="#E1F5EE"/>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="464" y="204.091">Healthy</tspan></text>
+<path opacity="0.5" d="M537 201.556L540.734 198.236C540.886 198.102 541.114 198.102 541.266 198.236L545 201.556" stroke="black" stroke-linecap="round"/>
+<rect x="450.179" y="266.5" width="108.442" height="32.556" rx="3" fill="#E1F5EE"/>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" letter-spacing="-0.022em"><tspan x="471" y="287.494">Healthy</tspan></text>
+<path opacity="0.74" d="M533 285.5C533.159 285.676 533.435 285.676 533.594 285.5L537.081 281.641C537.314 281.384 537.131 280.973 536.785 280.973H529.809C529.462 280.973 529.28 281.384 529.512 281.641L533 285.5Z" fill="#27AE60"/>
+<g filter="url(#filter1_dd)">
+<rect x="436" y="219" width="265" height="128" rx="4" fill="white"/>
+</g>
+<text fill="#1C1824" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="455.97" y="250.955">SSL Certificate Details</tspan></text>
+<text fill="#1C1824" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="500" letter-spacing="0em"><tspan x="455.97" y="272.864">your-awesome-site.com</tspan></text>
+<g opacity="0.6">
+<text fill="#1F1F23" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="10" letter-spacing="0em"><tspan x="456" y="295.636">Issued by: Let&#x2019;s Encrypt Authority X3&#x2028;</tspan><tspan x="456" y="311.636">Expires at: 01.06.2021, 16:16:15 GMT+3&#10;</tspan><tspan x="456" y="327.636">This certificate is </tspan></text>
+<text fill="#27AE60" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="10" font-weight="500" letter-spacing="0em"><tspan x="540.023" y="327.636">Healthy</tspan></text>
+</g>
+<rect x="84.4844" y="272.63" width="20.2695" height="20.3475" rx="2" fill="#36363D"/>
+<ellipse cx="94.5855" cy="282.831" rx="7.09433" ry="7.12162" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M101.532 273.884C102.015 274.235 102.122 274.912 101.772 275.396L96.758 282.339H102.625C103.22 282.339 103.703 282.824 103.703 283.422C103.703 284.02 103.22 284.504 102.625 284.504H94.6439C94.2386 284.504 93.8674 284.276 93.6832 283.914C93.499 283.551 93.5328 283.116 93.7708 282.786L100.026 274.125C100.376 273.641 101.05 273.533 101.532 273.884Z" fill="#36363D"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="84" y="356" width="21" height="21">
+<rect x="84.4844" y="356.07" width="20.2695" height="20.3475" rx="2" fill="url(#paint1_linear)"/>
+</mask>
+<g mask="url(#mask1)">
+<rect opacity="0.6" x="84.4844" y="356.07" width="20.2695" height="20.3475" rx="2" fill="#75A8FF"/>
+<path d="M100.982 380.73C100.993 380.73 101.014 380.719 101.024 380.719C103.375 379.936 105.379 378.355 106.694 376.248C108.863 372.724 108.664 368.211 105.614 365.455C104.898 364.794 104.042 364.305 103.11 364.024C101.588 363.613 99.9632 363.923 98.6978 364.865C98.0301 365.355 97.5112 366.022 97.1992 366.791C97.0798 367.071 96.8471 367.288 96.5592 367.386C96.2713 367.485 95.9553 367.455 95.6901 367.306C94.9789 366.891 94.1649 366.686 93.3427 366.717C91.7679 366.758 90.2961 367.512 89.3394 368.768C88.7671 369.569 88.3836 370.49 88.2181 371.461C87.8889 373.204 88.1703 375.006 89.0146 376.564C90.0717 378.447 91.7563 379.896 93.7723 380.656" fill="#DF4D60"/>
+<path d="M96.661 368.383C97.2398 368.383 97.709 367.912 97.709 367.331C97.709 365.51 96.7941 362.281 94.2727 360.846C92.1275 359.626 89.4363 359.973 86.2757 361.875C85.7937 362.18 85.6426 362.815 85.9355 363.306C86.2284 363.796 86.858 363.962 87.353 363.679C89.8178 362.196 91.7985 361.859 93.2394 362.678C95.0325 363.697 95.6131 366.254 95.6131 367.331C95.6131 367.912 96.0822 368.383 96.661 368.383Z" fill="#27AE60"/>
+<path d="M104.238 370.734C104.582 370.734 104.903 370.565 105.099 370.282C105.295 369.999 105.34 369.638 105.22 369.315C105.001 368.648 104.632 368.041 104.142 367.541C103.525 366.919 102.656 366.617 101.788 366.724C101.412 366.773 101.092 367.023 100.952 367.377C100.812 367.73 100.872 368.133 101.111 368.428C101.35 368.724 101.729 368.868 102.103 368.803C102.324 368.803 102.536 368.895 102.688 369.057C102.95 369.341 103.145 369.679 103.259 370.048C103.411 370.459 103.802 370.732 104.238 370.734Z" fill="#FB7B76"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="78.3037" y="411.056" width="719.433" height="81.2162" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.833333 0 0 0 0 0.801667 0 0 0 0 0.791667 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_dd" x="418" y="205" width="301" height="164" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="9"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="85.8498" y1="189.623" x2="106.127" y2="195.672" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9DA0FE"/>
+<stop offset="1" stop-color="#C765F3"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="85.8498" y1="356.472" x2="106.127" y2="362.52" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9DA0FE"/>
+<stop offset="1" stop-color="#C765F3"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="680" height="430" fill="white"/>
+</clipPath>
+</defs>
+</svg>

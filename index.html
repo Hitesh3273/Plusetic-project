@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLuseTic</title>
+    <link rel="icon" href="../Plusetic/assets/startup.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+<style>
+  .from-bottom {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 2.2s ease;
+  }
+
+  .from-bottom.visible {
+    opacity:1;
+    transform: translateY(0);
+  }
+</style>
+
+
+
+
+</head>
+<body class="">
+
+  <div id="miniInfo" class="from-bottom fixed absolute hidden z-11 left-[75%] top-[50%]
+              border-2 border-white border-solid w-[20%] p-4 bg-white shadow-sm">
+    <p><span>Hey there 👋 &nbsp;Friends</span> form <a href="">Designmodo</a> are here to help! </p>
+    <p><span> > </span>More Products</p>
+    <p><span> > </span>Start a Chat </p>
+  </div>
+
+
+
+  <div class="fixed z-10 left-[80%] top-[72%]
+                        md:left-[90%] md:top-[70%]  ">
+        
+           <svg class="w-[60%]" width="564" height="164" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  
+  <rect x="0" y="0" width="64" height="64" fill="transparent" />
+  <!-- Face -->
+  <circle onmouseover="showInfo()" cx="32" cy="32" r="30" fill="SlateBlue" stroke="SlateBlue" stroke-width="2" />
+
+  <!-- Left Eye (open) -->
+   <circle cx="22" cy="24" r="7" fill="white" />
+  <circle cx="22" cy="24" r="3" fill="SlateBlue" />
+
+  <!-- Right Eye (wink) -->
+  <line x1="40" y1="24" x2="48" y2="24" stroke="white" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Smile -->
+  <path d="M20 42 Q32 54 44 42" stroke="white" stroke-width="5" fill="none" />
+                    </svg>
+    </div>
+
+
+
+
+
+    <div class="relative px-[4%] w-[100%] z-10" id="Navbar" class="headerframe"></div>
+ 
+    <div class="w-[100%] px-[8%] my-[4%] z-0" id="Body" ></div>
+
+    <div class="w-[100%] px-[8%] bg-gray-100" id="section" ></div>
+
+    <div class="w-[100%] my-[4%] px-[8%] " id="monitor" ></div>
+
+    <div class="w-[100%] my-[8%] md:h-[590px]  px-[8%] bg-gray-100 " id="Alert" ></div>
+
+    <div class="w-[100%] px-[8%] my-[8%] " id="Status" ></div>
+    
+    <div class="w-[100%] px-[8%] max-md:h-[750px] md:h-[680px] bg-gray-100 " id="Offers" ></div>
+    
+    <div class="w-[100%] px-[8%] my-[4%] " id="Certificate" ></div>
+
+    <div class="w-[100%] px-[8%] my-[8%] bg-gray-100 " id="WorkIntro" ></div>
+
+    <div class="w-[100%] px-[8%] my-[5%] " id="Personalize" ></div>
+    
+    <div class="w-[100%] mt-[3%] bg-gray-100  " id="statubadge" ></div>
+
+    <div class="w-[100%] px-[8%] my-[5%]" id="Journey" ></div>
+
+    <div class="w-[100%] mt-[5%] bg-gray-100  " id="reviews" ></div>
+    
+    <div class="w-[100%] px-[8%]  " id="GetAcnt" ></div>
+    
+    <div class="w-[100%] px-[8%] mb-[4%] " id="Footer" ></div>
+
+  
+    
+
+
+    
+
+    <!-- <iframe class="headerframe" src="./Sections/header.html" width="100%" height="111.75px" frameborder="0"></iframe> -->
+    
+    <!-- <iframe class="bodyframe w-[100%] " src="./Sections/body.html" height="600px" frameborder="0"></iframe>
+
+    <iframe class="Sectionframe w-[100%]" src="./Sections/madeSec.html" width="100%" height="760px" frameborder="0"></iframe>
+
+    <iframe class="Monitorframe w-[100%]" src="./Sections/monitorSec.html" width="100%" height="620px" frameborder="0"></iframe>
+
+    <iframe class="w-[100%]" src="./Sections/alert.html" width="100%" height="740px" frameborder="0"></iframe>
+
+    <iframe class="w-[100%]" src="./Sections/StatusPages.html" width="100%" height="760px" frameborder="0"></iframe>
+
+    <iframe class="w-[100%]" src="./Sections/offers.html" width="100%" height="820px" frameborder="0"></iframe>
+
+    <iframe class="w-[100%]" src="./Sections/Certificate.html" width="100%" height="820px" frameborder="0"></iframe>
+
+    <iframe class="w-[100%]" src="./Sections/WorkIntro.html" width="100%" height="920px" frameborder="0"></iframe>
+
+    <iframe class="w-[100%]" src="./Sections/Personalized.html" width="100%" height="1820px" frameborder="0"></iframe>
+
+    <iframe src="./Sections/Status_Badge.html" frameborder="0" width="100%"  height="820px" ></iframe>
+
+    <iframe src="./Sections/Journey.html" frameborder="0" width="100%"  height="820px" ></iframe>
+
+    <iframe src="./Sections/Review.html" frameborder="0" width="100%"  height="820px" ></iframe>
+
+    
+    <iframe src="./Sections/getAccount.html" frameborder="0" width="100%"  height="420px" ></iframe> -->
+
+    <!-- <iframe src="./Sections/Footer.html" frameborder="0" width="100%"  height="510px" ></iframe> -->
+
+    
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/header.js"></script>
+    <script src="../scripts/offers.js"></script>
+
+    <script>
+  const observedSections = [
+     "Navbar", "Body", "section", "monitor", "Alert", "Status", "Offers", "Certificate",
+    "WorkIntro", "Personalize", "statubadge", "Journey", "reviews", "GetAcnt", "Footer"
+  ];
+
+  // Add .from-bottom class to each section
+  observedSections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.classList.add("from-bottom");
+    }
+  });
+
+  // Intersection Observer Logic
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target); // Animate only once
+      }
+    });
+  }, { threshold: 0.1 });
+
+  // Observe all from-bottom elements
+  document.querySelectorAll(".from-bottom").forEach(el => observer.observe(el));
+</script>
+
+    
+</body>
+</html>

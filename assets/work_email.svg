@@ -1,0 +1,19 @@
+<svg width="260" height="190" viewBox="0 0 260 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<rect y="98" width="260" height="36" rx="4" fill="#F5F5F6"/>
+<rect x="0.5" y="98.5" width="259" height="35" rx="3.5" stroke="#19221D" stroke-opacity="0.05"/>
+<rect x="13" y="108" width="0.5" height="16" fill="#19221D"/>
+<text opacity="0.5" fill="#19221D" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="500" letter-spacing="0em"><tspan x="15" y="120.364">Enter Email</tspan></text>
+<rect x="90" y="154" width="80" height="36" rx="18" fill="#5F51FF"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="12" font-weight="600" letter-spacing="0em"><tspan x="109.445" y="176.364">Submit</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="18" font-weight="500" letter-spacing="0em"><tspan x="6.54883" y="19.5455">Everytime Pulsetic publishes </tspan><tspan x="16.4893" y="45.5455">an update &#x2014; receive email </tspan><tspan x="74.0488" y="71.5455">notifications.</tspan></text>
+</svg>
