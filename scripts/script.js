@@ -61,15 +61,9 @@ function showInfo(){
  .then(response=>response.text())
  .then(data=>{document.getElementById('Journey').innerHTML=data});
 
-//  fetch('Sections/Review.html')
-//  .then(response=>response.text())
-//  .then(data=>{document.getElementById('reviews').innerHTML = data})
-
-fetch("./Sections/Review.html")
-  .then(res => res.text())
-  .then(html => {
-    document.getElementById("reviews").innerHTML = html;
-  });
+ fetch('Sections/Review.html')
+ .then(response=>response.text())
+ .then(data=>{document.getElementById('reviews').innerHTML = data})
 
  fetch('Sections/getAccount.html')
  .then(response=>response.text())
