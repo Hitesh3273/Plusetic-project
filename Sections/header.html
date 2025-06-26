@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
     <!-- <link rel="stylesheet" href="../Styles/header.css"> -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+    </script>
 </head>
 
 <body class="relative font-[sans-serif]">
@@ -18,8 +21,8 @@
 
         <nav class="m-[4%] flex flex-row justify-between">
              
-            <button class="w-24 text-base font-semibold hover:text-purple-400 hover:duration-1000" id="loginBTN">Log In</button>
-            <button class="hidden sm:list-item w-24 bg-gray-100 hover:bg-green-400 hover:duration-1000 text-base rounded-md" id="signBTN">Sign Up</button>
+            <button onclick="goToSignup()" class="w-24 text-base font-semibold hover:text-purple-400 hover:duration-1000" id="loginBTN">Log In</button>
+            <button onclick="goToSignup()" class="hidden sm:list-item w-24 bg-gray-100 hover:bg-green-400 hover:duration-1000 text-base rounded-md" id="signBTN">Sign Up</button>
            
             
             <!-- <img onclick="show()" class="bg-gray-300 rounded-sm w-[15%] h-[25px] ml-[25px] mt-[2%]" id="hamberICON" src="../assets/Hamburger.png" alt="ICON" > -->
@@ -46,35 +49,8 @@
                 <li class="mb-[10px] hover:bg-violet-500 hover:rounded-md hover:mx-[5%] hover:text-white"><a class="ml-[4%]" href="#">Chat with us</a></li>
             </ul>
         </div>
-
-
-
-
-
-
-
         <script src="../scripts/header.js"></script>
-
-
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
 
 
